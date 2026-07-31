@@ -1,0 +1,75 @@
+# NEBU Security Policy
+# https://thenebu.com/.well-known/security.txt
+# Canonical: https://thenebu.com/.well-known/security.txt
+
+# Contact Information
+# ============================================================
+# If you have discovered a security vulnerability, please report it
+# responsibly. We appreciate your efforts to keep NEBU secure.
+
+Contact: mailto:security@thenebu.com
+Contact: https://www.linkedin.com/company/thenebu
+
+# Preferred Languages
+Preferred-Languages: en
+
+# Security Policy
+Policy: https://thenebu.com/security-policy
+
+# PGP Key (Optional - Add when available)
+# Encryption: https://thenebu.com/.well-known/pgp-key.txt
+
+# Acknowledgments
+Acknowledgments: https://thenebu.com/security-acknowledgments
+
+# Hiring
+Hiring: https://thenebu.com/careers
+
+# Canonical URL
+Canonical: https://thenebu.com/.well-known/security.txt
+
+# Expiration Date (1 year from creation)
+Expires: 2026-12-11T23:59:59.000Z
+
+# ============================================================
+# Security Commitments
+# ============================================================
+#
+# NEBU takes security seriously. Our platform is designed with
+# enterprise-grade security in mind:
+#
+# - SOC 2 Type II Ready
+# - ISO 27001 Certified
+# - GDPR Compliant
+# - Regular security audits
+# - Encrypted data at rest and in transit
+# - Multi-factor authentication support
+# - Role-based access control (RBAC)
+# - Continuous security monitoring
+#
+# ============================================================
+# Responsible Disclosure Guidelines
+# ============================================================
+#
+# 1. Do NOT access or modify other users' data
+# 2. Do NOT perform actions that could harm the service
+# 3. Do NOT publicly disclose vulnerabilities before we've addressed them
+# 4. Provide sufficient information for us to reproduce the issue
+# 5. Allow reasonable time for us to respond and fix the issue
+#
+# We commit to:
+# - Acknowledging receipt of your report within 48 hours
+# - Providing a detailed response within 7 days
+# - Not pursuing legal action for good-faith reports
+# - Recognizing your contribution (with your permission)
+#
+# ============================================================
+# Bug Bounty Program
+# ============================================================
+#
+# We may offer rewards for qualifying security reports.
+# Contact us for current program details.
+#
+# ============================================================
+
+# Thank you for helping keep NEBU and our users safe!

@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://thenebu.com/.well-known/security.txt
+url: null
+note: >-
+  NEBU has no dedicated trust-center page. thenebu.com is a single-page marketing
+  site whose CloudFront catch-all returns the homepage for every path, so a probe
+  of /trust matched compliance keywords from the homepage rather than a real page.
+  The certification/compliance CLAIMS below are, however, genuinely self-published
+  by NEBU: in the homepage schema.org SoftwareApplication featureList and in the
+  Security Commitments section of /.well-known/security.txt. They are self-asserted
+  marketing claims (SOC 2 stated as "Type II Ready", i.e. not yet attested), not
+  independently verified certifications, and no audit reports or trust portal were
+  found. No `Compliance` pointer is emitted on the strength of these claims alone.
+certifications_claimed:
+- name: SOC 2 Type II
+  status: ready (self-stated, not yet attested)
+- name: ISO 27001
+  status: certified (self-stated)
+- name: GDPR
+  status: compliant (self-stated)
+evidence:
+- source: https://thenebu.com/.well-known/security.txt
+  kind: security.txt Security Commitments section
+  keywords:
+  - SOC 2 Type II Ready
+  - ISO 27001 Certified
+  - GDPR Compliant
+- source: https://thenebu.com/
+  kind: schema.org SoftwareApplication featureList (JSON-LD)
+  keywords:
+  - SOC2 compliance ready
+  - ISO 27001 certified
+  - GDPR compliant
